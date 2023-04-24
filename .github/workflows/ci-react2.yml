@@ -20,9 +20,6 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm test
-      
-      - name: compilando
-        run: npm build
         
       - name: iniciando aplicacao
         run: npm start
