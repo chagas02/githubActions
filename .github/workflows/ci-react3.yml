@@ -22,9 +22,10 @@ jobs:
       - run: npm install
       - run: npm test
       
-      - name: iniciando
-        run: npm start
-        
+             
       - name: build
         run: npm run build
+        
+      - name: iniciando
+        run: npm start
  
